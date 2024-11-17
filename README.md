@@ -1,4 +1,5 @@
 ## Ex.No:12 Design an application that draws basic graphical primitives on the screen.
+
 ## AIM:
 To create and design an android application that draws basic graphical primitives on the screen using Android Studio.
 
@@ -21,28 +22,16 @@ Step 6: Draw basic object details give in MainActivity file.
 Step 7: Save and run the application.
 
 ## PROGRAM:
+```
 /*
-```
 Program to create and design an android application that draws basic graphical primitives on the screen.
-Developed by : S DHARSHAN
+Developed by: DHARSHAN S
 Registeration Number : 212222040036
-```
 */
-## activity_main.xml
-```
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_height="match_parent"
-    android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/ImageView"/>
-</RelativeLayout>
 ```
 ## MainActivity.java
 ```
-package com.example.exp12;
+package com.example.ex12;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -52,7 +41,6 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.drawable.BitmapDrawable;
-import android.os.Bundle;
 import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
 
@@ -80,9 +68,25 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+
+## activity_main.xml
+```
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ImageView"/>
+</RelativeLayout>
+```
 ## OUTPUT
 
-![Screenshot 2024-11-11 113331](https://github.com/user-attachments/assets/7bf0c2cb-01f2-45b4-8178-394709230039)
+
+![image](https://github.com/user-attachments/assets/0a6beafc-a79c-48fb-8648-efc2039e32eb)
+
+
 
 ## RESULT
 Thus a Simple Android Application to create and design an android application that draws basic graphical primitives on the screen using Android Studio is developed and executed successfully.
